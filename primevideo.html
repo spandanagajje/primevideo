@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>navigation bar in css</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <div id="homepage">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="https://bestappsbuzz.com/wp-content/uploads/2020/03/Amazon-Prime-Video-for-PC-1080x675.jpg"
+          style="width:90px; height: 40px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#homepage">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#telugupage">Telugu</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Movies
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#telugupage">Telugu</a>
+              <a class="dropdown-item" href="#hollywoodpage">Hollywood</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div>
+        <i class="bi bi-camera-reels-fill" style="font-size: 40px; margin-right: 80px;";></i>
+      </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <img class="d-block w-100" src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/8sdj5.jpg"
+            alt="First slide" style="height: 350px; ">
+
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://i.ytimg.com/vi/de5DewvAEmE/maxresdefault.jpg" alt="Second slide"
+            style="height: 350px;">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100"
+            src="https://image.viettimes.vn/1200x630/Uploaded/2023/ovhipuo/2019_08_21/avengers150354_2182019.jpg"
+            alt="Third slide" style="height: 350px;">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+
+    <div
+      style="background-image: url('https://prensaeventos.cl/wp-content/uploads/2020/06/amazon-prime-video-como-acceder-a-la-plataforma-de-streaming.jpg'); background-size:cover; height:300px; width: 500;">
+      <div style="background-color: rgba(0,0,0,0.6); height: 300px;">
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="telugupage" style="height: 100vh; margin-top: 100px;">
+    <h1 class="text-center">Telugu</h1>
+    <div class="d-flex flex-row ">
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 280px; height: 250px; margin: 3px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/XxIiJS0nZZk?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 280px; height: 250px; margin: 3px; " class="embed-responsive-item  image-style"
+          src="https://www.youtube.com/embed/qlqcTX9s6hg?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 280px; height: 250px; margin: 3px;" class="embed-responsive-item  image-style"
+          src="https://www.youtube.com/embed/oVsA6B1cweo?rel=0" allowfullscreen></iframe>
+
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 280px; height: 250px; margin: 3px;" class="embed-responsive-item  image-style"
+          src="https://www.youtube.com/embed/k9IzpMky7No?rel=0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="d-flex flex-row mt-5">
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 260px; height: 250px; margin:3px;" class="embed-responsive-item  image-style"
+          src="https://www.youtube.com/embed/DSCPzIUd8GE?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 260px; height: 250px; margin:3px;" class="embed-responsive-item  image-style"
+          src="https://www.youtube.com/embed/qjhuIuLh49c?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 260px; height: 250px;margin:3px" class="embed-responsive-item  image-style"
+          src="https://www.youtube.com/embed/G_4q25BEghk?el=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 260px; height: 250px;margin:3px" class="embed-responsive-item  image-style"
+          src="https://www.youtube.com/embed/Zejiz78jQ2A?rel=0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="hollywoodpage">
+
+
+    <h1 class="text-center">Hollywood</h1>
+    <div class="d-flex flex-row mt-5">
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/zJBe79v_3Fs?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/xRURWQtEI2o?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/s6nzkLl38SA?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width:280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/RgpvQ7Wxo-c?rel=0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+    <div class="d-flex flex-row mt-5">
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width:280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/W5gHkRxcMPc?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width:280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/uFqyHj0qo60?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width:280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/3Z-Fcv4Vhk8?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width:280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/7CzgrepHjAE?rel=0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex flex-column text-center justify-content-center" style="margin-top: 100px; background-color:violet ; padding-top: 10px;">
+    <div>
+      <img
+        src="https://www.expertreviews.co.uk/sites/expertreviews/files/styles/er_main_wide/public/2018/09/amazon_prime_video_logo.jpg?itok=KT5VQ5au"
+        style="width: 150px; height: 80px; ">
+    </div>
+
+ 
+  
+  <div class="text-center">
+    <div id="spandana" class=" d-flex flex-row justify-content-between ml-5 mr-5"
+      style="border: 3px solid red; padding: 5px;">
+      <p>India</p>
+      <p>Brazil</p>
+      <p>Canada</p>
+      <p>China</p>
+      <p>Fance</p>
+      <p>Australia</p>
+      <p>Germany</p>
+      <p>Italy</p>
+      <p>Japan</p>
+    </div>
+    <div class="d-flex flex-row" style="margin-top: -6px; color: blue;">
+
+      <div class="m-4">
+        <h1 style="font-size: 20px; color: black;">Amazon Business</h1>
+        <p style="font-size: 16px; ">Everything For Your Business </p>
+      </div>
+
+      <div class="m-4">
+        <h1 style="font-size: 20px; color: black;">Audible</h1> 
+        <p style="font-size: 16px;">Downlode Audio Books</p>
+      </div>
+
+      <div class="m-4">
+        <h1 style="font-size: 20px; color: black;">Amazon Prime Music</h1>
+        <p style="font-size: 16px;">Stream millions of songs,ad-free</p>
+      </div>
+        
+      <div class="m-4">
+        <h1 style="font-size: 20px; color: black;">IMDb</h1>
+        <p style="font-size: 16px;">Movies,TV & Celebrities</p>
+      </div>
+
+
+      
+    </div>
+
+
+    <div class="footer" style="background-color: aqua; margin-top: 10px;">
+      <img
+        src="https://telecomtalk.info/wp-content/uploads/2023/04/amazon-primevideo-deal-paramount-grow-indian-content-1200x900.jpg"
+        style="width: 150px; height: 70px; margin-left: 20px;">
+      <h5 style="text-align: center;"><br>Terms and Privacy Notice<br>Send us Feedback</h5>
+    </div>
+  </div>
+
+</div>
+
+
+  <!-- <div id="TVshowspage">
+    <h1>TV shows</h1>
+    <div class="d-flex mt-5">
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/ljyVdhjTsAk?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/v0xgGl7Ma70?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width: 280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/czcdUiSPLM?rel=0" allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9" style="border-radius: 1rem;">
+        <iframe style="width:280px; height: 250px;" class="embed-responsive-item image-style"
+          src="https://www.youtube.com/embed/SHGOcHj2Z5o?rel=0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+
+</body>
+
+</html>
